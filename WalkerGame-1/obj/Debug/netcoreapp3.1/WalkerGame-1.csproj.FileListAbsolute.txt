@@ -1,0 +1,11 @@
+D:\C# programms\2020-p\WalkerGame-1\obj\Debug\netcoreapp3.1\WalkerGame-1.csprojAssemblyReference.cache
+D:\C# programms\2020-p\WalkerGame-1\obj\Debug\netcoreapp3.1\WalkerGame-1.AssemblyInfoInputs.cache
+D:\C# programms\2020-p\WalkerGame-1\obj\Debug\netcoreapp3.1\WalkerGame-1.AssemblyInfo.cs
+D:\C# programms\2020-p\WalkerGame-1\bin\Debug\netcoreapp3.1\WalkerGame-1.exe
+D:\C# programms\2020-p\WalkerGame-1\bin\Debug\netcoreapp3.1\WalkerGame-1.deps.json
+D:\C# programms\2020-p\WalkerGame-1\bin\Debug\netcoreapp3.1\WalkerGame-1.runtimeconfig.json
+D:\C# programms\2020-p\WalkerGame-1\bin\Debug\netcoreapp3.1\WalkerGame-1.runtimeconfig.dev.json
+D:\C# programms\2020-p\WalkerGame-1\bin\Debug\netcoreapp3.1\WalkerGame-1.dll
+D:\C# programms\2020-p\WalkerGame-1\bin\Debug\netcoreapp3.1\WalkerGame-1.pdb
+D:\C# programms\2020-p\WalkerGame-1\obj\Debug\netcoreapp3.1\WalkerGame-1.dll
+D:\C# programms\2020-p\WalkerGame-1\obj\Debug\netcoreapp3.1\WalkerGame-1.pdb

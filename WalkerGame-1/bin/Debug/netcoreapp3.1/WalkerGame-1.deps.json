@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WalkerGame-1/1.0.0": {
+        "runtime": {
+          "WalkerGame-1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WalkerGame-1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
