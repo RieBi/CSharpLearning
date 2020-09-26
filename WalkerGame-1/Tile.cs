@@ -40,7 +40,7 @@ namespace WalkerGame_1
 
         public void RemoveEntity(Entity entity)
         {
-            if (!Creatures.Contains(entity)) { return; }
+            if (!Creatures.Contains(entity)) { throw new Exception("Entity hasn't been found"); }
 
             Creatures.Remove(entity);
             switch (entity.Type)
@@ -51,10 +51,10 @@ namespace WalkerGame_1
                         HasEnemy = false;
                     }
                     Enemies--;
-                    return;
+                    break;
                 case "Player":
                     HasPlayer = false;
-                    return;
+                    break;
             }
 
             if (Entities == 1)

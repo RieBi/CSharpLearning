@@ -8,8 +8,10 @@ namespace WalkerGame_1
         public static Random rnd = new Random();
         public static StringBuilder NewInfo = new StringBuilder();
         public static Character Player = new Character(10, 1);
+
+        public static int TotalMonsters;
         
-        private static int AmountOfTiles;
+        private static int AmountOfTiles { get; set; }
         public static Tile[] Tiles;
 
 
@@ -37,6 +39,7 @@ namespace WalkerGame_1
         static void CreateTiles(int amount)
         {
             Tiles = new Tile[amount];
+            AmountOfTiles = amount;
 
             for (int i = 0; i < amount; i++)
             {
@@ -59,7 +62,7 @@ namespace WalkerGame_1
         {
             for (int i = 0; i < Tiles.Length; i++)
             {
-                int num = rnd.Next(11);
+                int num = rnd.Next(50);
                 if (num == 1 && !Tiles[i].HasEntity)
                 {
                     Tiles[i].AddEntity(new Monster(5, 1, "Rat", Tiles[i]));

@@ -6,7 +6,7 @@ namespace WalkerGame_1
 {
     public class Character : Entity
     {
-        public int Sight = 2;
+        public int Sight = 10;
         public List<Tile> TilesInSight = new List<Tile>();
 
         public Character(int maxHealth, int damage)
